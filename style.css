@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#background {
+  background-image: url(https://quotefancy.com/media/wallpaper/3840x2160/15429-George-R-R-Martin-Quote-A-reader-lives-a-thousand-lives-before-he.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 70px;
+}
+
+#categories {
+  margin-bottom: 70px;
+}
+
+#categories .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 18px;
+}
+
+#categories .icon {
+  box-shadow: 3px 3px 30px #d4d6d78f;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+#categories .icon:hover {
+  box-shadow: 3px 3px 30px #c4c6c7d6;
+}
+
+#categories .icon img {
+  padding: 20px 90px;
+}
+
+#categories .icon h4 {
+  padding-bottom: 14px;
+  text-align: center;
+  font-size: 20px;
+  color: #081621;
+}
+
+#categories .icon:hover h4 {
+  color: #ef4a23;
+}
+
+#products {
+  margin-bottom: 70px;
+}
+
+#products .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+#products .box {
+  background-color: #ffffff;
+  box-shadow: 3px 3px 30px #d4d6d78f;
+  padding: 30px 20px 5px 17px;
+  border-radius: 7px;
+  position: relative;
+  transition: 0.3s;
+}
+
+#products .box:hover {
+  box-shadow: 3px 3px 30px #c4c6c7d6;
+}
+
+#products .box .price {
+  width: 100px;
+  height: 39px;
+  background-color: #6e2594;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  padding: 8px 10px 10px 15px;
+  display: inline-block;
+  font-size: 18px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  transition: 0.3s;
+}
+
+#products .box:hover .price {
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  background-color: #d34343;
+}
+
+#products .box .img {
+  text-align: center;
+  padding: 18px 20px;
+}
+
+#products .box .contains h4 a {
+  display: block;
+  text-align: center;
+  color: #081621;
+  text-decoration: none;
+  line-height: 20px;
+  font-family: sans-serif;
+  padding: 8px 0;
+}
+
+#products .box .contains h4 a:hover {
+  color: red;
+}
+
+#products .box .contains ul li {
+  color: #666;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#products .box .dis-price h4 {
+  color: #ef4a23;
+  text-align: center;
+  line-height: 35px;
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+#products .box .dis-price h4 span {
+  color: #666;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+#products .box .btn-group button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #3749bb;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#products .box .btn-group button:hover {
+  background-color: white;
+  color: #3749bb;
+  box-shadow: 3px 3px 30px #d4d6d7;
+}
